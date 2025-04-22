@@ -6,7 +6,7 @@ function Lesson1_1() {
     <main className="lesson-page">
       <section className="lesson-card">
         <h1>1-1. What is Real Estate Syndication?</h1>
-        <p>Real estate syndication is a way for people to pool their money together and invest in large properties – like apartment complexes or, in commercial terms, office buildings – that would be too expensive to buy alone. It's like a group of friends chipping in to buy a house, but on a bigger scale and managed by professionals.</p>
+        <p>Real estate syndication, like apartment complexes or, in commercial terms, office buildings – that would be too expensive to buy alone. It's like a group of friends chipping in to buy a house, but on a bigger scale and managed by professionals.</p>
 
         <h2 style={{ marginTop: "2.5rem" }}>Structure: GPs vs LPs</h2>
         <p>There are usually two roles in a syndication:</p>
@@ -20,11 +20,11 @@ function Lesson1_1() {
         <p>Here’s how a syndication deal typically works:</p>
         <ol>
           <li><strong>Finding a Property:</strong> The GP looks for a property that fits their investment strategy.</li>
-          <li><strong>Underwriting:</strong> This means studying the numbers—rent, expenses, profit potential—to see if it’s a good deal.</li>
+          <li><strong>Underwriting:</strong> This means studying the numbers (rent, expenses, profit potential) to see if it’s a good deal.</li>
           <li><strong>Due Diligence:</strong> The GP inspects the property, reviews records, and confirms everything checks out.</li>
           <li><strong>Forming an LLC:</strong> The property is owned by a new company (LLC), which protects both the GP and LPs legally.</li>
           <li><strong>Raising Money:</strong> The GP invites investors (LPs) to put in money. This money, plus a loan from a bank, is used to buy the property.</li>
-          <li><strong>Executing the Plan:</strong> The GP follows a business plan—this could include fixing up the property, raising rents, or improving management.</li>
+          <li><strong>Executing the Plan:</strong> The GP follows a business plan. This could include fixing up the property, raising rents, or improving management.</li>
           <li><strong>Ongoing Updates:</strong> LPs receive regular updates and payments from the property's income.</li>
           <li><strong>Exit:</strong> After several years (usually 3–7), the GP sells or refinances the property, and everyone gets their share of the profits.</li>
         </ol>
@@ -40,13 +40,13 @@ function Lesson1_1() {
           <li><strong>Crowdfunding:</strong> Websites that let lots of small investors contribute online.</li>
           <li><strong>Retirement Accounts:</strong> Some people invest using self-directed IRAs or 401(k)s to gain tax advantages.</li>
         </ul>
-        <p><strong>Why not just pay cash?</strong> Most deals use loans (called "debt") to increase buying power—just like using a mortgage when buying a home. This allows investors to buy a more valuable property and increase returns.</p>
+        <p><strong>Why not just pay cash?</strong> Most deals use loans (called "debt") to increase buying power, similar to using a mortgage when buying a home. This allows investors to buy a more valuable property and increase returns.</p>
 
         <h2 style={{ marginTop: "2.5rem" }}>Economics & Profit Distribution</h2>
         <p>Here’s how the money usually works in a syndication:</p>
         <ul>
           <li><strong>Preferred Return:</strong> LPs often get the first 6–10% of profits before the GP earns anything.</li>
-          <li><strong>Profit Sharing:</strong> After preferred return, the rest of the profits are split—commonly 70% to LPs, 30% to GPs.</li>
+          <li><strong>Profit Sharing:</strong> After preferred return, the rest of the profits are split. A common structure is 70% to LPs, 30% to GPs.</li>
           <li><strong>Waterfall Structure:</strong> Bigger deals might have layers of profit splits, where GPs earn more if the deal performs really well.</li>
           <li><strong>Fees:</strong> GPs are paid for their work, including fees for acquiring, managing, and selling the property.</li>
         </ul>
@@ -68,8 +68,8 @@ function Lesson1_1() {
         <p><strong>So what kind of paperwork is involved?</strong> Every investor in a syndication has to review and sign several key documents that spell out the deal in detail:</p>
 
         <ul>
-          <li><strong>Operating Agreement:</strong> This lays out how the business (usually an LLC) will be run – including who’s in charge, how decisions are made, and how profits are shared between the GP and LPs.</li>
-          <li><strong>Private Placement Memorandum (PPM):</strong> This document lists all the fine print – covering risks, fees, projections, and legal disclaimers. It’s there to make sure investors know exactly what they’re getting into before putting up their money.</li>
+          <li><strong>Operating Agreement:</strong> This lays out how the business (usually an LLC) will be run, including who’s in charge, how decisions are made, and how profits are shared between the GP and LPs.</li>
+          <li><strong>Private Placement Memorandum (PPM):</strong> This document lists all the fine print, covering risks, fees, projections, and legal disclaimers. It’s there to make sure investors know exactly what they’re getting into before putting up their money.</li>
           <li><strong>Subscription Agreement:</strong> This is what each investor signs to confirm they’ve read everything, agree to the terms, and officially want in.</li>
         </ul>
 
