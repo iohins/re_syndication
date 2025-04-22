@@ -1,0 +1,188 @@
+/* Font setup */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #f5f3ff, #e9d8fd);
+  color: #2a1a4a;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh 1rem 8vh;
+}
+
+/* Header */
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+  animation: fadeIn 1s ease-out;
+}
+
+.gradient-title {
+  font-family: "Sora", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(90deg, #4c1d95, #6b21a8, #7c3aed);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 8s ease-in-out infinite;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #5b4b75;
+  margin-top: 0.4rem;
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 10px 40px rgba(76, 29, 149, 0.1);
+  animation: fadeIn 1.3s ease-out;
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #4c1d95;
+}
+
+.card h2 span {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #7c3aed;
+  margin-left: 0.5rem;
+}
+
+.lesson-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lesson-list li {
+  margin: 0.75rem 0;
+}
+
+.lesson-list a {
+  color: #6b21a8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: inline-block;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.lesson-list a::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #a855f7;
+  transition: transform 0.3s ease;
+}
+
+.lesson-list a:hover::before {
+  transform: translateX(4px);
+}
+
+.lesson-list a:hover {
+  color: #4c1d95;
+}
+
+.more {
+  text-align: center;
+  margin-top: 2rem;
+  color: #4a365c;
+  font-style: italic;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .gradient-title {
+    font-size: 1.9rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}
+
+.lesson-page {
+  display: flex;
+  justify-content: center;
+  padding: 6vh 1rem;
+  background: linear-gradient(to bottom right, #ede9fe, #f3e8ff);
+  min-height: 100vh;
+}
+
+.lesson-card {
+  background: #ffffffea;
+  max-width: 720px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(76, 29, 149, 0.1);
+  animation: fadeIn 0.8s ease-out;
+}
+
+.lesson-card h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #4c1d95;
+  margin-bottom: 1rem;
+}
+
+.placeholder {
+  color: #5b4b75;
+  font-style: italic;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #6b21a8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: #4c1d95;
+}
+
