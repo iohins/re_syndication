@@ -10,7 +10,7 @@ function App() {
       </header>
 
       <section className="card">
-        <h2>📚 Phase 1: Foundations <span>(Weeks 1–4)</span></h2>
+        <h2>📚 Phase 1: Foundations</h2>
         <ul className="lesson-list">
           <li><Link to="/1-1">1-1. What is Real Estate Syndication?</Link></li>
         </ul>

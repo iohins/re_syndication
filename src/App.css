@@ -44,13 +44,13 @@ body {
   margin-top: 0.4rem;
 }
 
-/* Card Section */
+/* Card Section (Home) */
 .card {
   background: rgba(255, 255, 255, 0.92);
   border-radius: 20px;
-  padding: 2rem;
-  margin: 1rem;
-  max-width: 600px;
+  padding: 2.5rem;
+  margin: 2rem auto;
+  max-width: 650px;
   width: 100%;
   box-shadow: 0 10px 40px rgba(76, 29, 149, 0.1);
   animation: fadeIn 1.3s ease-out;
@@ -126,9 +126,10 @@ body {
 
 .lesson-card {
   background: #ffffffea;
-  max-width: 720px;
   width: 100%;
-  padding: 2rem;
+  max-width: 780px;
+  padding: 2.5rem;
+  margin: 2rem auto;
   border-radius: 16px;
   box-shadow: 0 10px 40px rgba(76, 29, 149, 0.1);
   animation: fadeIn 0.8s ease-out;
